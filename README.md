@@ -8,6 +8,8 @@ Tools & Skills: MySQL Workbench (v8), SQL (DDL/DML, Joins, Aggregations, Window 
 Dataset: 24,000+ rows × 26 columns (Spotify + YouTube track metadata and engagement metrics)
 Purpose: To analyze how artists and tracks perform across platforms, understand the role of audio attributes in popularity, and compare engagement vs. reach.
 
+
+
 1. Problem
 
 Streaming platforms shape modern music success, yet Spotify and YouTube measure it differently. This project asks:
@@ -18,6 +20,8 @@ How do track attributes (danceability, energy, valence, etc.) influence populari
 
 Does engagement (likes, comments) align with reach (views)?
 
+
+
 2. Approach
 
 Built a structured SQL database from raw Excel → CSV (24k rows, 26 cols).
@@ -27,6 +31,8 @@ Applied schema design, correct data types, and thorough data quality checks (dup
 Wrote advanced SQL queries to compare artists, tracks, and platform performance.
 
 Designed analysis to connect business insights with data-driven evidence.
+
+
 
 3. SQL Techniques Applied
 
@@ -40,6 +46,8 @@ Window Functions: Ranking artists/tracks by popularity.
 
 Conditional Logic: CASE WHEN for Spotify vs. YouTube comparisons.
 
+
+
 4. Insights & Impact
 
 Highlighted top-performing artists across both platforms and where success diverged.
@@ -47,5 +55,7 @@ Highlighted top-performing artists across both platforms and where success diver
 Found patterns linking audio features (danceability, energy, valence) to higher popularity.
 
 Exposed gaps between reach and engagement — tracks with high views but low interaction.
+
+
 
 📌 Business Outcome: Enables music labels, marketers, and platform teams to align promotion strategies, optimize track placement, and better predict what resonates with audiences.
