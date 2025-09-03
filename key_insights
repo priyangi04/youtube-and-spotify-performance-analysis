@@ -1,0 +1,50 @@
+📊 Key Findings – Spotify & YouTube Performance Analysis
+
+This document summarizes the top insights derived from SQL analysis of 24,000+ Spotify and YouTube tracks. All insights are data-driven, highlighting artist performance, track attributes, and engagement patterns.
+
+1️⃣ Artist Performance Across Platforms
+
+Some artists dominate Spotify streams, while others perform better on YouTube views.
+
+Example: Artist X has high Spotify streams but moderate YouTube reach, indicating strong audio-focused fanbase.
+
+Actionable: Artists can optimize promotion strategies depending on platform dominance.
+
+2️⃣ Track Attributes & Popularity
+
+Tracks with higher danceability, energy, and valence tend to have more streams and views.
+
+Longer tracks didn’t always perform better; track duration had a minor influence on popularity.
+
+Actionable: Use these insights to design playlists and releases targeting specific audience preferences.
+
+3️⃣ Platform Comparison: Spotify vs YouTube
+
+The Spotify-to-YouTube ratio reveals which tracks are audio-focused versus visually viral.
+
+Some tracks with high YouTube views had low Spotify streams, showing that viral videos don’t always translate to audio streams.
+
+Actionable: Marketing teams can focus on cross-platform promotion to maximize reach and engagement.
+
+4️⃣ Engagement vs Reach (YouTube)
+
+Tracks with millions of views sometimes had low likes/comments, highlighting weak audience connection.
+
+Conversely, some tracks with moderate views showed high engagement ratios, indicating loyal fan interaction.
+
+Actionable: Use engagement metrics to identify tracks worth promoting further.
+
+5️⃣ Top Artists & Tracks
+
+Aggregate analysis identified top 10 artists by streams and top 10 by views, showing platform-specific dominance.
+
+Tracks consistently appearing in top rankings can be used as benchmarks for content strategy.
+
+6️⃣ Business Implications
+
+Artists and labels can prioritize release strategy (Spotify for audio reach, YouTube for viral potential).
+
+Marketing campaigns can focus on tracks with high engagement ratios, not just high reach.
+
+Audio features can inform playlist curation and targeted promotions.
+
