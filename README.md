@@ -1,21 +1,21 @@
-🎵 Spotify & YouTube Performance Analysis
+## 🎵 Spotify & YouTube Performance Analysis
 
 This repository contains an end-to-end SQL project analyzing Spotify & YouTube track data (24k+ rows × 26 columns). The goal is to uncover cross-platform performance, identify audio attributes driving popularity, and compare engagement vs. reach.
 
-🛠️ Tools Used
+## 🛠️ Tools Used
 
 SQL / MySQL Workbench (v8): Schema design, data cleaning, advanced queries (CTEs, window functions).
 
 Excel: Initial dataset exploration & CSV preparation.
 
-📁 Repository Structure
+## 📁 Repository Structure
 Spotify-YouTube-Analysis/
 ├── 📂 data/                 # sample dataset (CSV)
 ├── 📂 sql/                  # schema, cleaning, and analysis queries
 ├── 📂 insights/             # key findings & visuals
 ├── 📄 README.md
 
-📊 Key Insights
+## 📊 Key Insights
 
 1️⃣ Artist Performance Across Platforms
 
