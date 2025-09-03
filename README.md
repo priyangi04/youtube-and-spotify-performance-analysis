@@ -1,61 +1,45 @@
-# youtube-and-spotify-performance-analysis
-Analysed cross-platforn music data (Spotify+YouTube) using SQL to compare artist performance, correlate audio features with popularity and reveal engagement-reach insights.
-
-
 🎵 Spotify & YouTube Performance Analysis
 
-Tools & Skills: MySQL Workbench (v8), SQL (DDL/DML, Joins, Aggregations, Window Functions), Data Cleaning, Business Analytics
-Dataset: 24,000+ rows × 26 columns (Spotify + YouTube track metadata and engagement metrics)
-Purpose: To analyze how artists and tracks perform across platforms, understand the role of audio attributes in popularity, and compare engagement vs. reach.
+This repository contains an end-to-end SQL project analyzing Spotify & YouTube track data (24k+ rows × 26 columns). The goal is to uncover cross-platform performance, identify audio attributes driving popularity, and compare engagement vs. reach.
 
+🛠️ Tools Used
 
+SQL / MySQL Workbench (v8): Schema design, data cleaning, advanced queries (CTEs, window functions).
 
-1. Problem
+Excel: Initial dataset exploration & CSV preparation.
 
-Streaming platforms shape modern music success, yet Spotify and YouTube measure it differently. This project asks:
+📁 Repository Structure
+Spotify-YouTube-Analysis/
+├── 📂 data/                 # sample dataset (CSV)
+├── 📂 sql/                  # schema, cleaning, and analysis queries
+├── 📂 insights/             # key findings & visuals
+├── 📄 README.md
 
-Which artists perform best across both platforms?
+📊 Key Insights
 
-How do track attributes (danceability, energy, valence, etc.) influence popularity?
+1️⃣ Artist Performance Across Platforms
 
-Does engagement (likes, comments) align with reach (views)?
+Top artists showed different dominance on Spotify vs YouTube (e.g., some had higher reach on YouTube but deeper engagement on Spotify).
 
+2️⃣ Track Attributes & Popularity
 
+Features like danceability, energy, and valence correlated strongly with higher reach and streams.
 
-2. Approach
+3️⃣ Engagement vs Reach
 
-Built a structured SQL database from raw Excel → CSV (24k rows, 26 cols).
+Several tracks had millions of views but low likes/comments, showing weak audience connection.
 
-Applied schema design, correct data types, and thorough data quality checks (duplicates, NULLs, encoding).
+4️⃣ Cross-Platform Strategy
 
-Wrote advanced SQL queries to compare artists, tracks, and platform performance.
+Artists should leverage YouTube for mass reach and Spotify for loyal fan engagement.
 
-Designed analysis to connect business insights with data-driven evidence.
+🎯 Business Outcome
 
+Insights help music labels, marketers, and platform teams:
 
+Decide where to prioritize releases (Spotify vs YouTube).
 
-3. SQL Techniques Applied
+Optimize promotions using audio feature patterns.
 
-Data Cleaning & Validation: Checked for nulls, duplicates, anomalies.
+Balance reach vs engagement strategies for stronger fan connection.
 
-Aggregation: COUNT(), SUM(), AVG() for metrics.
-
-Joins: Merging Spotify attributes with YouTube engagement.
-
-Window Functions: Ranking artists/tracks by popularity.
-
-Conditional Logic: CASE WHEN for Spotify vs. YouTube comparisons.
-
-
-
-4. Insights & Impact
-
-Highlighted top-performing artists across both platforms and where success diverged.
-
-Found patterns linking audio features (danceability, energy, valence) to higher popularity.
-
-Exposed gaps between reach and engagement — tracks with high views but low interaction.
-
-
-
-📌 Business Outcome: Enables music labels, marketers, and platform teams to align promotion strategies, optimize track placement, and better predict what resonates with audiences.
